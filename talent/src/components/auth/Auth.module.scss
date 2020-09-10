@@ -1,0 +1,15 @@
+$input-width: 330px;
+
+.form {
+    .ant-form-item-children,
+    input {
+        max-width: $input-width;
+    }
+    input:global(#phone) {
+        max-width: $input-width - 70px;
+    }
+}
+
+.middle{
+    margin-top: 40px;
+  }

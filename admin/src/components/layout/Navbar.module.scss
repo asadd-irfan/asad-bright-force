@@ -1,0 +1,70 @@
+$breakpoint-small-phone: 475px;
+
+.menu {
+  margin-top: -5px;
+}
+.top-menu-small-btn {
+  margin-right: 10px;
+}
+.logo_container {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+}
+.logo {
+  background: url('../../assets/img/logo.svg') no-repeat left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+.buttonGroup {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 5px;
+  & > * {
+      margin-right: 10px;
+  }
+  button {
+      line-height: 1;
+  }
+}
+.ml-30{
+  margin-left: 30px;
+}
+.anchorStyle a:hover{
+  text-decoration: none;
+}
+.submenu {
+  ul {
+    li {
+      height: 100% !important;
+    }
+  }
+}
+.submenu_svg svg{
+  @media screen and (max-width: $breakpoint-small-phone) {
+    font-size: 20px !important;
+    margin-bottom: 5px !important;
+  }
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.avatarStyle{
+  @media screen and (max-width: $breakpoint-small-phone) {
+    width: 40px !important;
+    height: 38px !important;
+    line-height: 25px !important;
+}
+}
+

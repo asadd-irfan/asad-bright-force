@@ -1,0 +1,75 @@
+@import './styles/colors';
+
+$breakpoint-small-phone: 325px;
+$breakpoint-phone: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 959px;
+
+.ant-layout .ant-layout-header {
+    padding: 0;
+    background-color: white;
+    height: 84px;
+}
+.ant-layout .ant-layout-content {
+    padding: 0 50px;
+    margin: 20px 0;
+}
+
+.ant-tabs-nav-scroll {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    border: 1px solid rgba($color: #000000, $alpha: 0.1);
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    padding: 5px;
+}
+.card-container > .ant-tabs {
+    width: 100%
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    @media screen and (max-width: $breakpoint-small-phone) {
+        width: 100px !important;
+    }
+    @media screen and (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop) {
+        width: 130px !important;
+    }
+    @media screen and (min-width: $breakpoint-desktop) {
+        width: 210px !important;
+    }
+    text-align: center;
+  }
+  .margin-padding-none{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .ant-layout-sider-zero-width-trigger{
+    top: 1px !important;
+  }
+
+  .vertical-middle-align {
+	@media screen and (max-width: $breakpoint-tablet) {
+	  display: block !important;
+	}
+	@media (min-width: $breakpoint-tablet) {
+	  display: flex !important;
+	  flex-direction: row;
+	  align-items: center;
+	}
+  }
+
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .div-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,71 @@
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/daygrid/main.css";
+@import "~@fullcalendar/timegrid/main.css";
+
+.calendar-container {
+  margin: auto;
+  margin-top: 30px;
+  width: 96%;
+}
+.calendar-left-container {
+  height: 100%;
+  border: 1px solid black;
+}
+.left-status-box {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+.calendar-right-container {
+  height: 100%;
+  border: 1px solid black;
+}
+
+.calendar-app-container {
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.demo-app-top {
+  margin: 0 0 3em;
+}
+
+.calendar-app {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.fc-time-grid .fc-slats tr {
+  height: 50px;
+}
+.fc-unthemed td.fc-today {
+  background: white;
+}
+.fc-event {
+  background: #073763;
+  color: whitesmoke !important;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+#external-events {
+  position: absolute;
+  z-index: 2;
+
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  background: #eee;
+  overflow-y: scroll;
+}
+
+#external-events .fc-event {
+  margin: 1em 0;
+  cursor: move;
+}
+
+.fc-past {
+  background: rgba(231, 236, 234, 0.877);
+}

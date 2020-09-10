@@ -1,0 +1,10 @@
+PORT=8000
+ENV = "development"
+MONGO_DB_URI = "mongodb://localhost:27017/brightforce"
+MONGO_DB_DATABASE = "brightforce"
+MONGO_DB_USER = ""
+MONGO_DB_PASSWORD = ""
+MIGRATION_DB_URI = "mongodb://3.120.38.71:27017"
+JWT_SECRET = "as#*^(hdj^!8)43&$nfIcY"
+BASE_URL = "http://localhost:8000"
+RUN_CRONJOBS=false

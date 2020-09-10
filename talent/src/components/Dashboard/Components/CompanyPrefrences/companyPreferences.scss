@@ -1,0 +1,40 @@
+.main-heading-wrapper{
+	padding-bottom: 10px;
+	border-bottom: 2px solid;
+}
+.inner-heading-wrapper{
+	margin-top: 15px;
+}
+.form-inner-wrapper{
+	padding: 5px 10px;
+}
+.ant-input-number{
+	width: 180px
+}
+.industries-tag-wrapper{
+	padding: '5px';
+	font-size: large;
+	:hover{
+		cursor: pointer;
+	}
+}
+.checkable-tag{
+	border: 1px solid rgba(0,0,0,0.2) !important;
+	:active{
+		color: #2db7f5 !important;
+	}
+}
+
+.up-to-error{
+	color: #f5222d;
+	margin-top: 2px;
+	margin-bottom: -5px;
+	transition: color 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.ant-checkbox-group-item {
+    display: block;
+    margin-right: 0;
+}
+
+
+

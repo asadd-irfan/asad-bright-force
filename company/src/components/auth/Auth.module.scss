@@ -1,0 +1,56 @@
+$input-width: 330px;
+
+.form {
+    .ant-form-item-children,
+    input {
+        max-width: $input-width;
+    }
+    input:global(#phone) {
+        max-width: $input-width - 70px;
+    }
+}
+
+.phoneCustomStyle{
+    width: 330px !important;
+}
+
+.phoneCustomWrapper{
+    label::before{
+        display: inline-block;
+        margin-right: 4px;
+        color: #f5222d;
+        font-size: 14px;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: '*';
+    }
+}
+
+.p10{
+    padding: '10px';
+}
+.mb0{
+    margin-bottom: '0px';
+}
+
+.userFormWrapper {
+    background-Color: rgba(0, 0, 0, 0.1);
+    border: 2px solid; 
+    margin-bottom: 5px
+}
+
+.middle{
+    margin-top: 40px;
+  }
+  .logo_container {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+}
+.logo {
+  background: url('../../assets//img/logo.svg') no-repeat left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 15px;
+  margin-left: 25px;
+}

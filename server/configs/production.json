@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://ItzikH:LnYU8MuBGmDXExZg@brightforceprod-eahqp.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "as#*^(hdj^!8)43&$nfIcY"
+}

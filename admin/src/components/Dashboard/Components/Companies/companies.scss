@@ -1,0 +1,155 @@
+
+.view-profile-container{
+    font-size: 24;
+    
+}
+.hr-line{
+font-weight: bold;
+height: 2px;
+background-color: black;
+
+}
+.text-align{
+    text-align: left;
+}
+.icon{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.menu-wrapper{
+    a {
+      color: white !important;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    background: green;
+  }
+
+  .pl-15{
+    padding-left: 15px;
+  }
+
+  .borderBottom {
+    border-bottom: 1px solid white;
+  }
+
+  .checkboxes-row .ant-form-item {
+    margin-bottom: 0px;
+  }
+
+  .purple-color{
+    color: #A64DA4;
+  }
+  .green-color{
+    color: #319E5C;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+  
+  .ant-menu ul li {
+    margin-bottom: 0px;
+  }
+
+.status-wrapper {
+  padding: 5px 10px;
+  color: white;
+}
+ 
+.status-pending {
+  background-color: #F1C232;
+}
+ 
+ 
+.status-handled {
+  background-color: #E69138;
+}
+ 
+ 
+.status-closed {
+  background-color: #009E0F;
+}
+ 
+ 
+.status-denied {
+  background-color: #E06666;
+}
+
+
+.checkable-tag-margin {
+  margin: 0px 10px 10px 0px;
+}
+.checkable-tag{
+border: 1px solid rgba(0,0,0,0.2) !important;
+:active{
+  color: #2db7f5 !important;
+}
+}
+
+
+.width-330{
+width: 330px;
+}
+
+ 
+.banner-image {
+	border-radius: 5px;
+	border: 1px solid;
+	position: relative;
+	top: 0;
+  	left: 0;
+}
+.logo-image {
+	border-radius: 50%;
+	border: 1px solid;
+	position: absolute;
+	top: -25px;
+	z-index: 5;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.user_svg svg{
+  font-size: 30px;
+  margin-bottom: 10px;
+  // margin-left: 10px;
+  color: black;
+}
+
+.anchorStyle {
+  border: none;
+}
+
+.anchorStyle .ant-menu-submenu-arrow{
+  display: none;
+}
+.lg-modal{
+  .ant-modal-content{
+    width: 600px;
+  }
+}
+
+  .input-style input {
+	width: 246px !important;
+	height: 31.3px !important;
+  border: 1px solid #d9d9d9 !important;
+  margin-left: 30px !important;
+}

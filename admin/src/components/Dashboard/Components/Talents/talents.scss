@@ -1,0 +1,57 @@
+.view-profile-container{
+    font-size: 24;
+    
+}
+.hr-line{
+font-weight: bold;
+height: 2px;
+background-color: black;
+
+}
+.text-align{
+    text-align: left;
+}
+.icon{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.menu-wrapper{
+    a {
+      color: white !important;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    background: green;
+  }
+
+  .pl-15{
+    padding-left: 15px;
+  }
+
+  .borderBottom {
+    border-bottom: 1px solid white;
+  }
+
+  .checkboxes-row .ant-form-item {
+    margin-bottom: 0px;
+  }
+
+  .purple-color{
+    color: #A64DA4;
+  }
+
+ 

@@ -1,0 +1,50 @@
+.view-profile-container{
+    font-size: 24;
+    
+}
+.hr-line{
+font-weight: bold;
+height: 2px;
+background-color: black;
+
+}
+.text-align{
+    text-align: left;
+}
+.icon{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.status-wrapper {
+    padding: 5px 10px;
+    color: white;
+  }
+   
+  .status-open-action-required {
+    background-color: #F1C232;
+  }
+  .status-open-unprocess {
+    background-color: #f18832;
+  }
+  .status-open-process {
+    background-color: #3285f1;
+  }
+   
+   
+  .status-open-fulfilled {
+    background-color: #93C47D;
+  }
+   
+   
+  .status-closed-hired {
+    background-color: #38761D;
+  }
+   
+   
+  .status-closed-other {
+    background-color: #df5353;
+  }
+  

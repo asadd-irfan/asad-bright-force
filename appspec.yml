@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/
+hooks:
+    BeforeInstall:
+    - location: code_deploy_scripts/before_install
+      timeout: 300
+      runas: root
+    AfterInstall:
+      - location: code_deploy_scripts/after_install
+        timeout: 300
+        runas: root
+      - location: code_deploy_scripts/run_migration
+        timeout: 300
+        runas: root
+    ApplicationStart:
+      - location: code_deploy_scripts/application_start
+        timeout: 300
+        runas: root
+    

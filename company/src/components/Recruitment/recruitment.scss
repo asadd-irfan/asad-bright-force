@@ -1,0 +1,148 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/timegrid/main.css';
+
+.view-profile-container{
+    font-size: 24;
+    
+}
+.hr-line{
+font-weight: bold;
+height: 2px;
+background-color: black;
+
+}
+.text-align{
+    text-align: left;
+}
+.icon{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.menu-wrapper{
+    a {
+      color: white !important;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    background: green;
+  }
+
+  .pl-15{
+    padding-left: 15px;
+  }
+
+  .borderBottom {
+    border-bottom: 1px solid white;
+  }
+
+  .checkboxes-row .ant-form-item {
+    margin-bottom: 0px;
+  }
+
+  .purple-color{
+    color: #A64DA4;
+  }
+
+ .position-heading {
+   &:hover {
+     cursor: pointer;
+     text-decoration: underline;
+     
+   }
+ }
+
+ .main-heading-wrapper{
+	padding-bottom: 10px;
+	border-bottom: 2px solid;
+}
+
+.hiring-team-wrapper {
+  margin-bottom: 40px;
+}
+
+.position-requirements-wrapper {
+  margin-bottom: 40px;
+}
+
+
+.full-border {
+	border: 2px solid black;
+	padding: 1px 15px 15px;
+	margin: 25px
+}
+
+.talent-list-flex-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.talent-list-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.number-circle {
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    background: rgb(83, 79, 79);
+}
+
+.number-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.go-back {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.hover-cursor {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.fc-bgevent{
+  &:hover {
+    cursor: pointer;
+  }
+}
+.ant-tag-checkable {
+  border: 1px solid #d9d9d9 !important;
+}
+.steps-content {
+  margin-top: 40px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+  background-color: white;
+  padding: 0 50px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+p{
+  font-size: 16px;
+}

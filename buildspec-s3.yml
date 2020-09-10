@@ -1,0 +1,40 @@
+# Do not change version. This is the version of aws buildspec, not the version of your buldspec file.
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12    
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+  build:
+    commands:
+      - echo Build started on `date`
+      - echo Compiling the Node.js code
+      - npm run build
+
+  post_build:
+    commands:
+      - echo Testing completed on `date`
+      - mv client_main/build/* . && mkdir -p talent && mv client_talent/build/* talent &&  mkdir -p admin && mv client_admin/build/* admin && mkdir -p company && mv client_company/build/* company
+
+# Include only the files required for your application to run.
+artifacts:
+  files:
+    - buildspec-test.yml
+    - buildspec-s3.yml
+    - asset-manifest.json
+    - favicon.ico
+    - index.html
+    - logo192.png
+    - logo512.png
+    - manifest.json
+    - service-worker.js
+    - static/**/*
+    - talent/**/*
+    - company/**/*
+    - admin/**/*
+   
+    

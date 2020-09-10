@@ -1,0 +1,55 @@
+.preferred-role-wrapper {
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+  }
+  .choose-role-wrapper {
+    margin-top: 15px;
+  }
+  .form-inner-wrapper {
+    padding: 5px 10px;
+  }
+  
+  .social-links-wrapper {
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+  }
+  .dynamic-delete-button {
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    font-size: 24px;
+    color: #999;
+    transition: all 0.3s;
+  }
+  .dynamic-delete-button:hover {
+    color: #777;
+  }
+  .dynamic-delete-button[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  .ant-slider-custom-styles {
+    margin-bottom: 0px;
+    margin-top: 8px;
+  }
+  .droppable > div {
+    
+    border: none !important;
+    background-color: #f0f2f5 !important;
+  }
+  .droppable > div > div {
+    background-color: #f0f2f5 !important;
+   
+  
+  }
+  .tag-style {
+    .anticon-close{
+      padding-bottom: 4px;
+      font-size: 12px;
+      padding-left: 5px;
+  }
+  .ant-tag{
+    padding-top: 5px;
+  }
+  }

@@ -1,0 +1,47 @@
+.preferred-role-wrapper {
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+}
+.choose-role-wrapper {
+  margin-top: 15px;
+}
+.form-inner-wrapper {
+  padding: 5px 10px;
+}
+
+.social-links-wrapper {
+  padding-bottom: 10px;
+  border-bottom: 2px solid;
+  margin-bottom: 20px;
+}
+.dynamic-delete-button {
+  cursor: pointer;
+  position: relative;
+  top: 4px;
+  font-size: 24px;
+  color: #999;
+  transition: all 0.3s;
+}
+.dynamic-delete-button:hover {
+  color: #777;
+}
+.dynamic-delete-button[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.ant-slider-custom-styles {
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+.droppable > div > div {
+  background-color:pink !important;
+ 
+}
+
+.checkable-tag-margin {
+  margin: 0px 10px 10px 0px;
+}
+
+.ant-tag-checkable {
+  border: 1px solid #d9d9d9;;
+}

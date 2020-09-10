@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb://localhost:27017/brightforce",
+    "jwtSecret": "2r(M/C3Q`;c}<3J?<H]B"
+}
